@@ -1,0 +1,16 @@
+# AccessAtlas
+
+> AccessAtlas tracks disability rights and disability policy across all 50 U.S. states, Washington D.C., and the federal government from 2000 to the present. Each entry, laws, regulations, ballot measures, executive actions, and court decisions, is individually verified against a primary government source before publication.
+
+AccessAtlas is a single-page application: all content is served from one HTML document and rendered client-side, so only one URL exists to fetch. The full structured dataset (title, jurisdiction, government level, status, date, bill number, category, summary, and source link for every tracked policy) is embedded directly in that page's HTML source as JSON, and is also available as a downloadable ZIP archive through the in-page "Download the full dataset" feature on the Data page.
+
+## Site
+
+- [AccessAtlas](https://accessatlas.us/): Home page, interactive state map, topic browser, state comparison tool, and the complete policy database, all in one document.
+
+## Notes
+
+- Coverage: all 50 states, D.C., and federal policy, tracked since 2000.
+- Every entry links to its original government or primary source; AccessAtlas does not present itself as legal advice.
+- The dataset is not paginated behind a login or a JavaScript-only API. The raw JSON is present in the page's HTML source (inside a `<script type="application/json">` block) and can be extracted directly without executing JavaScript.
+- Status values used throughout: Enacted, Pending, Failed, Vetoed, Repealed, Expired.

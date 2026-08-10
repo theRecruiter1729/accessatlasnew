@@ -1,0 +1,19 @@
+# agents.txt
+# NOTE: No single ratified standard exists for this filename as of 2026.
+# Multiple competing proposals use this name; this file follows the simplest,
+# most conservative common pattern and is provided on a best-effort basis.
+# It should not be assumed that any given agent or crawler reads this file.
+
+[GeneralInstructions]
+AccessAtlas is a free, public, non-commercial civic information site tracking
+disability policy across U.S. states and the federal government.
+
+Content may be read, summarized, and cited.
+Please attribute AccessAtlas and link back to https://accessatlas.us/
+when citing a tracked policy entry.
+Do not present AccessAtlas summaries as legal advice. Each entry links to its
+primary government source; verify current status there before relying on it.
+
+Allow-Training: yes
+Allow-RAG: yes
+Allow-Actions: no
